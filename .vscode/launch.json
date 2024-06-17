@@ -1,0 +1,31 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+    
+          {
+            "name": "trip",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "--web-port=1401",
+                "chrome",
+                "--web-hostname",
+                "192.168.2.12"
+            ]
+        },
+        {
+            "name": "trip (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "trip (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
